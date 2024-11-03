@@ -1,6 +1,6 @@
-# synthwave-landing-page
+# odin-landing-page
 
-A clean landing page forked from MaxLedx/odin-landing-page to improve and experiment my own ideas
+A colorful landing page based on synthwave.
 
 ## Applied skills
 - Basic HTML
