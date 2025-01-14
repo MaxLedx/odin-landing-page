@@ -79,3 +79,51 @@ img {
     border-radius: 8px;
     border: 1px solid #E5E7EB;
 }
+
+.second-section-container {
+    display: flex;
+    justify-content: center;
+}
+
+.second-section {
+    margin-top: 32px;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+    margin-bottom: 64px;
+}
+
+.second-section h2 {
+    text-align: center;
+    width: 100%;
+    font-size: 36px;
+    font-size: 900;
+    color: #1F2937;
+}
+
+.information {
+    display: flex;
+    gap: 32px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 8px;
+    align-items: center;
+    width: 150px;
+}
+
+.card div {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+}
+
+.card p {
+    color: grey;
+}
