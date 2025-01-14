@@ -135,7 +135,7 @@ img {
 }
 
 .third-section {
-    padding: 32px;
+    padding: 64px;
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -151,4 +151,38 @@ img {
 
 .third-section span {
     align-self: flex-end;
+}
+
+.fourth-section-container {
+    display: flex;
+    justify-content: center;
+    padding: 64px;
+}
+
+.fourth-section {
+    padding: 32px;
+    width: 70%;
+    background-color: #3882F6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fourth-section div {
+    display: flex;
+    flex-direction: column;
+}
+
+.fourth-section div p {
+    color: white;
+}
+
+.fourth-section button {
+    border: 2px solid white;
+}
+
+.cta {
+    font-size: 24px;
+    font-weight: bold;
 }
