@@ -6,7 +6,7 @@
 }
 
 .section-content {
-    max-width: 75%;
+    width: 75%;
 }
 
 .section-one {
@@ -130,4 +130,33 @@ button {
 
 .quote-author {
     margin-left: auto;
+}
+
+.section-four {
+    display: flex;
+    justify-content: center;
+    padding: 64px;
+}
+
+.cta {
+    width: 100%;
+    background-color: #3882F6;
+    border-radius: 16px;
+    padding: 64px 96px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cta-text {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cta-secondary-text {
+    color: white;
+}
+
+.cta button {
+    border: 2px solid white;
 }
