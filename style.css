@@ -2,19 +2,18 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif
 }
 
 .section-content {
-    width: 75%;
+    width: 75%
 }
 
 .section-one {
-    background-color: #1F2937;
-    padding: 16px;
-    padding-bottom: 96px;
+    background-color: #1f2937;
+    padding: 16px 16px 96px;
     display: flex;
-    justify-content: center;
+    justify-content: center
 }
 
 .header ul {
@@ -22,37 +21,37 @@
     list-style-type: none;
     align-items: center;
     gap: 16px;
-    margin-bottom: 96px;
+    margin-bottom: 96px
 }
 
 .header-logo {
-    color: #F9FAF8;
+    color: #f9faf8;
     font-size: 24px;
-    margin-right: auto;
+    margin-right: auto
 }
 
 .hero {
     display: flex;
-    gap: 32px;
+    gap: 32px
 }
 
 .hero-content {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 8px;
+    gap: 8px
 }
 
 .header-link,
 .hero-secondary-text {
     font-size: 18px;
-    color: #E5E7EB;
+    color: #e5e7eb
 }
 
 .hero-text {
     font-size: 48px;
-    color: #F9FAF8;
-    font-weight: 900;
+    color: #f9faf8;
+    font-weight: 900
 }
 
 .hero-image-placeholder {
@@ -61,104 +60,103 @@
     background-color: gray;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center
 }
 
 button {
-    background-color: #3882F6;
-    border: none;
+    background-color: #3882f6;
+    border: 0;
     padding: 8px 24px;
     border-radius: 8px;
-    color: white;
+    color: #fff
 }
 
 .info-header {
     font-size: 36px;
-    color: #1F2937;
+    color: #1f2937;
     font-weight: 900;
     text-align: center;
-    margin-bottom: 64px;
+    margin-bottom: 64px
 }
 
 .section-two {
-    padding: 64px;
-    padding-bottom: 96px;
+    padding: 64px 64px 96px;
     display: flex;
-    justify-content: center;
+    justify-content: center
 }
 
 .infos {
     display: flex;
-    gap: 32px;
+    gap: 32px
 }
 
 .info {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center
 }
 
 .info-square {
     width: 250px;
     height: 250px;
-    border: 3px solid #3882F6;
-    border-radius: 16px;
+    border: 3px solid #3882f6;
+    border-radius: 16px
 }
 
 .info-text {
-    text-align: center;
+    text-align: center
 }
 
 .section-three {
-    background-color: #E5E7EB;
+    background-color: #e5e7eb;
     padding: 96px;
     display: flex;
-    justify-content: center;
+    justify-content: center
 }
 
 .quote-content {
     display: flex;
-    flex-direction: column;
+    flex-direction: column
 }
 
 .quote {
     font-size: 36px;
     font-weight: 200;
     font-style: italic;
-    color: #1F2937;
+    color: #1f2937
 }
 
 .quote-author {
-    margin-left: auto;
+    margin-left: auto
 }
 
+.cta,
 .section-four {
     display: flex;
     justify-content: center;
-    padding: 64px;
+    padding: 64px
 }
 
 .cta {
     width: 100%;
-    background-color: #3882F6;
+    background-color: #3882f6;
     border-radius: 16px;
     padding: 64px 96px;
-    display: flex;
-    justify-content: space-between;
+    justify-content: space-between
 }
 
 .cta-text {
-    color: white;
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 700
 }
 
-.cta-secondary-text {
-    color: white;
+.cta-secondary-text,
+.cta-text {
+    color: #fff
 }
 
 .cta button {
-    border: 2px solid white;
+    border: 2px solid #fff
 }
 
 .section-five {
@@ -166,6 +164,6 @@ button {
     justify-content: center;
     align-items: center;
     padding: 32px;
-    background-color: #1F2937;
-    color: white;
+    background-color: #1f2937;
+    color: #fff
 }
